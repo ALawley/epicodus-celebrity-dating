@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $("form#dating").submit(function(event) {
-    var music = $("input#music").val();
-    var gender = $("input#gender").val();
+  $("#dating").submit(function(event) {
+    var music = $("select#music").val();
+    var gender = $("select#gender").val();
 
     if (music === 'rock' && gender === 'male') {
       $("#malerock").show();

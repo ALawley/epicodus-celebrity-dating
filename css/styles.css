@@ -2,6 +2,6 @@ h1,p,form{
   text-align: center;
 }
 
-#malerock{
+#malerock, #femalerock, #enbyrock, #malerap, #femalerap, #enbyrap {
   display: none;
 }

@@ -13,31 +13,35 @@
   <body>
     <h1>Welcome to the Celebrity Date Finder, where we find you the perfect celebrity for you to date!</h1>
     <form id="dating">
-      <div id="music" class="form-group">
-        <p>What type of music do you prefer?</p>
-        <input type="radio" name="music" value="rock"> Rock<br>
-        <input type="radio" name="music" value="rap"> Rap<br>
+      <p>What type of music do you prefer?</p>
+      <div id="music-options">
+        <select id="music">
+          <option value="rock">Rock</option>
+          <option value="rap">Rap</option>
+        </select>
       </div>
-      <div id="gender" class="form-group">
-        <p>Which gender would you prefer to date?</p>
-        <input type="radio" name="gender" value="male"> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <input type="radio" name="gender" value="enby"> Non-Binary<br>
+      <p>Which gender would you prefer to date?</p>
+      <div id="gender-options">
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="enby">Non-Binary</option>
+        </select>
       </div>
       <button class="btn btn-default" type="submit" name="button">Show Me My Celebrity Date!</button>
     </form>
     <div id="answers">
       <div id="malerock"><p>malerock</p>
       </div>
-      <div id="femalerock"><p>malerock</p>
+      <div id="femalerock"><p>femalerock</p>
       </div>
-      <div id="enbyrock"><p>malerock</p>
+      <div id="enbyrock"><p>enbyrock</p>
       </div>
-      <div id="malerap"><p>malerock</p>
+      <div id="malerap"><p>malerap</p>
       </div>
-      <div id="femalerap"><p>malerock</p>
+      <div id="femalerap"><p>femalerap</p>
       </div>
-      <div id="enbyrap"><p>malerock</p>
+      <div id="enbyrap"><p>enbyrap</p>
       </div>
     </div>
   </body>
