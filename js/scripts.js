@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $("#dating").submit(function(event) {
+    $("#malerock, #femalerock, #enbyrock, #malerap, #femalerap, #enbyrap").hide();
+
     var music = $("select#music").val();
     var gender = $("select#gender").val();
 

@@ -5,3 +5,8 @@ h1,p,form{
 #malerock, #femalerock, #enbyrock, #malerap, #femalerap, #enbyrap {
   display: none;
 }
+
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
