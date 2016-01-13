@@ -12,19 +12,33 @@
   </head>
   <body>
     <h1>Welcome to the Celebrity Date Finder, where we find you the perfect celebrity for you to date!</h1>
-    <form>
-      <div class="form-group">
+    <form id="dating">
+      <div id="music" class="form-group">
         <p>What type of music do you prefer?</p>
         <input type="radio" name="music" value="rock"> Rock<br>
         <input type="radio" name="music" value="rap"> Rap<br>
+      </div>
+      <div id="gender" class="form-group">
+        <p>Which gender would you prefer to date?</p>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="enby"> Non-Binary<br>
+      </div>
+      <button class="btn btn-default" type="submit" name="button">Show Me My Celebrity Date!</button>
+    </form>
+    <div id="answers">
+      <div id="malerock"><p>malerock</p>
+      </div>
+      <div id="femalerock"><p>malerock</p>
+      </div>
+      <div id="enbyrock"><p>malerock</p>
+      </div>
+      <div id="malerap"><p>malerock</p>
+      </div>
+      <div id="femalerap"><p>malerock</p>
+      </div>
+      <div id="enbyrap"><p>malerock</p>
+      </div>
     </div>
-    <div class="form-group">
-      <p>Which gender would you prefer to date?</p>
-      <input type="radio" name="gender" value="male"> Male<br>
-      <input type="radio" name="gender" value="female"> Female<br>
-      <input type="radio" name="gender" value="enby"> Non-Binary<br>
-    </div>
-    <button class="btn btn-default" type="submit" name="button">Show Me My Celebrity Date!</button>
-</form>
   </body>
 </html>
