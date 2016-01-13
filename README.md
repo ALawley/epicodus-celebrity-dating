@@ -10,7 +10,10 @@ _This is a quick page where the user will list their preferences, and the site w
 
 ## Setup/Installation Requirements
 
- _Open index.html in your browser_
+
+ _Clone the repository into your own local directory_
+
+ _Open index.html in a modern web browser_
 
 
 ## Known Bugs
