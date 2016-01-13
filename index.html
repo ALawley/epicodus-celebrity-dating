@@ -14,20 +14,35 @@
     <h1>Welcome to the Celebrity Date Finder, where we find you the perfect celebrity for you to date!</h1>
     <form id="dating">
       <p>What type of music do you prefer?</p>
-      <div id="music-options">
+      <div class="radio">
+        <label>
+          <input type="radio" name="exampleRadios" id="music" value="rock">
+          Rock
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="exampleRadios" id="music" value="rap">
+          Rap
+        </label>
+      </div>
+
+
+      <!-- <div id="music-options">
         <select id="music">
           <option value="rock">Rock</option>
           <option value="rap">Rap</option>
         </select>
       </div>
-      <p>Which gender would you prefer to date?</p>
+    <p>Which gender would you prefer to date?</p>
       <div id="gender-options">
         <select id="gender">
           <option value="male">Male</option>
           <option value="female">Female</option>
           <option value="enby">Non-Binary</option>
         </select>
-      </div>
+      </div> -->
       <button class="btn btn-default" type="submit" name="button">Show Me My Celebrity Date!</button>
     </form>
     <div id="answers">
